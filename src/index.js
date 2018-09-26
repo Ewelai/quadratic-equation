@@ -16,9 +16,7 @@ if (d > 0) {
 }
 
 // third part
-let arr = [];
-arr.push(x1);
-arr.push(x2);
+let arr = [x1, x2];
 
 //fourth part
 return arr.sort(function(a, b) {
